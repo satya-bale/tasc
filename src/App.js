@@ -1,10 +1,15 @@
 import './App.css';
 import {useState} from "react";
+// import { Routes, Route, useNavigate } from 'react-router-dom';
+
 import  Calendar from "react-calendar";
+// import DatePage from './DatePage';
 
 function App() {
 
   const [date, setDate] = useState(new Date());
+    const navigate = useNavigate();
+
 
 
   return (
